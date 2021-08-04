@@ -1,0 +1,51 @@
+body{
+    
+    background: linear-gradient(to top, #FFFFFF, #FFEFBA); 
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.container
+{
+    background-color: #ccc5ae;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50%;
+    width: 50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.timebar{
+    font-size: 50px;
+    text-align: center;
+    margin:10px;
+    color: #000;
+}
+
+.button{
+    justify-content: center;
+    background-color: rgb(0, 253, 169);
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left:5px;
+    padding-right:10px;
+    /* size: 50px; */
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0px;
+    border: 1px solid black;
+}
+
+.button:hover{
+    background-color: rgb(178, 253, 249);
+    border-radius: 5px;
+    border: 1px solid black;
+}
